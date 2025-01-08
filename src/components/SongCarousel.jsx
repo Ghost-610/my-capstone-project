@@ -2,12 +2,12 @@ import "react";
 
 const SongCarousel = () => {
   const songs = [
-    { id: 1, title: "Echoes of Midnight", artist: "Jon Hickman", image: "https://via.placeholder.com/150" },
+    { id: 1, title: "Echoes of Midnight", artist: "Jon Hickman", image: <img alt="Adele" src="../assets/Adele.jpg"></img> },
     // Add more songs here
   ];
 
   return (
-    <div className="flex space-x-4 overflow-x-auto scrollbar-hide py-4">
+    <div className="flex space-x-4 overflow-x-auto scrollbar-hide py-4 justify-center">
       {songs.map((song) => (
         <div
           key={song.id}

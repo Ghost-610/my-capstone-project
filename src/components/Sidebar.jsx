@@ -23,7 +23,7 @@ const Sidebar = () => {
           <li className="hover:bg-gray-700 p-2 rounded">Rhythm & Energy</li>
         </ul>
         <button className="w-full p-2 bg-red-500 text-center rounded hover:bg-red-600">
-          Logout
+          LogIn
         </button>
       </div>
     </aside>

@@ -11,7 +11,8 @@ const MainContent = () => {
       <SongCarousel />
       <Categories />
       <PopularSongs />
-    </main>
+   
+        </main>
   );
 };
 
