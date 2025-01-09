@@ -123,7 +123,6 @@ For questions or feedback, please contact:
 - **Name:** Elorm Gershon
 - **Email:** alidugershon@gmail.com
 
----
 
 Enjoy using RhythmTune! 🎵
 
