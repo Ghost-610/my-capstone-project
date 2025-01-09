@@ -14,6 +14,8 @@ const App = () => {
         const fetchData = async () => {
             const fetchedFeaturedTracks = await fetchFeaturedTracks();
             const fetchedPopularSongs = await fetchPopularSongs();
+            console.log("fetchedPopularSongs",fetchedPopularSongs)
+            console.log()
 
             setFeaturedTracks(fetchedFeaturedTracks);
             setPopularSongs(fetchedPopularSongs);

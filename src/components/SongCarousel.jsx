@@ -2,7 +2,7 @@ import "react";
 
 const SongCarousel = () => {
   const songs = [
-    { id: 1, title: "Echoes of Midnight", artist: "Jon Hickman", image: <img alt="Adele" src="../assets/Adele.jpg"></img> },
+    { id: 1, title: "Echoes of Midnight", artist: "Jon Hickman", image: "https://via.placeholder.com/150" },
     // Add more songs here
   ];
 
